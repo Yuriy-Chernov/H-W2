@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
+
+header {
+    background-color: #2965F1;
+    padding: 23px 0;
+}
+
+header span {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.main-section {
+    background-color: #FAFAFF;
+    padding: 60px 0;
+    min-height: 100vh;
+
+}
+
+.main-title {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.21;
+    font-weight: 700;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 18;
+    line-height: 1.2;
+}
+
+.main-image {
+    max-width: 715px;
+    /* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    background-color: #FFFFFF;
+    padding: 100px 0;
+}
+
+select {
+ padding: 9px 87px 8px 12px;
+ border-width: 1px;
+ border-radius: 5px;
+ background: url(./ep_arrow-down.svg   ) no-repeat right 10px top 50%;
+ appearance: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.211;
+    margin-bottom: 25px;
+}
+
+.frameworks-list {
+   list-style-image: url(./solar_map-arrow-up-bold.svg);
+   padding-left: 20px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.21;
+}
+
+.books-list {
+   padding-left: 20px;   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.21;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.21;
+}
+
+.text-field {
+    border-radius: 5px;
+    border-color: rgba(48, 48, 48, 0.3);
+    color: rgba(48, 48, 48, 0.3);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    padding: 9px 215px 8px 12px;
+    border-width: 1px;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #2965F1;
+  border-radius: 5px;
+  padding: 9px 27px 8px 29px;
+  border:none;
+  font-size: 16px;
+  line-height: 16.94px;
+}
+
+.line {
+   margin: 60px 0;
+}
+
+table {
+    border:none;
+    border: 1px solid rgba(149, 161, 187, 1);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 11px 13px 12px 15px;
+    border: 1px solid rgba(149, 161, 187, 1);
+}
+
+footer {
+    background-color: #A3A7FF4D;
+    padding: 26px 0 27px 1px;
+    }
+
+.footer-link {
+  color: #2965F1;
+  text-decoration: none;
+}
